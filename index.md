@@ -39,3 +39,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### 记录七牛上传---小问题
 
 七牛上传分为两种：一种是SDK上传，一种是上传base64编码图片
+
+SDK上传https://developer.qiniu.com/kodo/sdk/1283/javascript
+base64上传https://developer.qiniu.com/kodo/kb/1326/how-to-upload-photos-to-seven-niuyun-base64-code
+其中base64上传的地址需要https://upload-z1.qiniup.com/putb64/-1加上后缀（putb64）和（-1）→【文件大小】
+SDK上传直接https://upload-z1.qiniup.com即可，这个地址指的是华北地区上传
